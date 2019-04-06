@@ -18,7 +18,7 @@
 #   - TRAVIS_EVENT_TYPE - to check if this is a cron job
 #
 
-if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
+if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]]; then
   "$@"
 else
   echo "skipped $*"
