@@ -2,5 +2,5 @@
 # commit Gemfile and Gemfile.lock.
 source 'https://rubygems.org'
 
-gem 'cocoapods', "=1.6.1"
+gem 'cocoapods', '= 1.11.0'
 gem 'cocoapods-generate'
